@@ -3,34 +3,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200;1,6..72,200&display=swap');
 
+/* Formatação das Tags*/
 
+/*//////////Fim das tags//////////*/
 body {
     background-color: #c40f0f;
 }
 
 /* Formatação Header*/
-.nav-text{
+.nav-text {
     color: #c40f0f;
     text-transform: uppercase;
 }
-.nav-text:hover{
+
+.nav-text:hover {
     color: #093d83;
 }
+
+.bg-base {
+    background-color: white;
+}
+
 /* ////////// Fim deo Header ////////// */
 
 /* Formatação do Main */
 
 /* Formatação do Menu lateral Direito */
-aside{
-    font-family: 'Newsreader', serif;
-    font-size: 18px;
-    font-weight: bold;
-}
+
 .fst-italic {
     font-size: 0.8em;
 }
+
 /* ////////// Fim do Menu Lateral */
 
+/* Formatação noticias em destaque */
+.bg-terciary{
+    background-color: #093d83;
+}
+.bg-quartiary{
+    background-color: #fd5949;
+}
+/*////////// Fim das Noticias em destaque //////////*/
 
 .notice-thumbnail {
     height: 200px;
@@ -42,28 +55,79 @@ aside{
 }
 
 
-.redes-icon{
+.redes-icon {
     font-size: 2.5em;
 }
-.pbt-2{
-padding-top: 10px;
-padding-bottom: 10px;
+
+.pbt-2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.li-hover:hover{
-    background-color: rgb(255, 193, 7);
-    margin-top: 3px;
-    color: black;
-}
-.li-hover a:hover{
-    color: white;
-}
-.li-hover2:hover{
-    background-color: rgb(255, 193, 7);
-    color: black;
+.text-justfy{
+    text-align: justify;
 }
 /* ////////// Fim do Main ////////// */
 /* Formatação do Rodapé */
-footer{
-    background:  #093d83;
+footer {
+    background: #093d83;
 }
+
+.borda1 {
+    border-right: 10px solid #c40f0f;
+    border-bottom: 5px solid #c40f0f;
+}
+.borda2 {
+    border-left: 10px solid #c40f0f;
+    margin-top: 5px;
+    border-bottom: 5px solid #c40f0f;
+}
+
+.borda3 {
+    border-right: 10px solid #093d83;
+    border-bottom: 5px solid #093d83;
+}
+.borda4 {
+    border-left: 10px solid #093d83;
+    margin-top: 5px;
+    border-bottom: 5px solid #093d83;
+}
+
+.li-hover2:hover {
+    background-color: #c40f0f;
+
+}
+
+.li-hover:hover {
+    background-color: #c40f0f;
+    transition: background 0.5s;
+}
+
+.facebook {
+    color: white;
+}
+
+.facebook:hover {
+    color: #3b5998;
+    background: white;
+    border-radius: 52%;
+}
+
+.instagram {
+    color: white;
+}
+
+.instagram:hover {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    border-radius: 50%;
+}
+
+.youtube {
+    color: white;
+}
+
+.youtube:hover {
+    color: #ff0000;
+}
+
 /* ////////// Fim do Rodapé //////////*/
