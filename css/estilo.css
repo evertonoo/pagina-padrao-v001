@@ -1,8 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,700;1,800&family=Shantell+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Tilt+Prism&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200;1,6..72,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Sans+Narrow:wght@400;700&family=Tilt+Warp&display=swap');
+/* 
+font-family: 'Tilt Warp', cursive;  TITULOS
+font-family: 'Open Sans', sans-serif SUB E MENUS
+font-family: 'PT Sans Narrow', sans-serif; CORPO DOS TEXTOS
 
+*/
+/* Formatações de Text*/
+.notice-title{
+    font-family: 'Tilt Warp', cursive, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.notice-desciption{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+}
+.notice{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.2em;
+}
 /* Formatação das Tags*/
 .noticia{
     
@@ -138,3 +154,21 @@ footer {
 }
 
 /* ////////// Fim do Rodapé //////////*/
+
+.secao-noticia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 150px;
+
+}
+.secao-noticia h1, p{
+    margin: 0;
+    padding: 0;
+
+}
+.corpo-noticia{
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+}
