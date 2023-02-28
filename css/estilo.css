@@ -28,6 +28,9 @@ font-family: 'PT Sans Narrow', sans-serif; CORPO DOS TEXTOS
     color:#c40f0f;
 }
 
+.pt-6{
+margin-top: 100px;
+}
 /*//////////Fim das tags//////////*/
 body {
     background-color: #c40f0f;
