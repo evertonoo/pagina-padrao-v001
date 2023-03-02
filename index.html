@@ -18,8 +18,8 @@
 
 <body>
   <!-- Inicio do Header -->
-  <header>
-    <nav class=" container navbar navbar-expand-lg bg-base shadow p-3 bg-body-tertiary rounded-bottom">
+  <header class="mt-md-2">
+    <nav class=" container navbar navbar-expand-lg bg-base shadow p-3 bg-body-tertiary">
       <div class="container d-flex align-items-end pe-0">
         <a href="index.html" class="navbar-brand"><img src="img/logo.png" width="150" alt=""></a>
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-principal">
@@ -86,15 +86,95 @@
   <!-- ////////// Fim do Header ////////// -->
 
   <!-- Inicio do Main -->
-  <main class="container bg-white mt-3 rounded">
+  <main class="container bg-white">
 
     <div class="row bg-light shadow pt-md-5">
       <!-- INICIO BANNER PRINCIPAL -->
       <!--Noticia Principal Esquerda-->
-
-
-
-      <div class="col-md-8 p-2 d-flex flex-column">
+      <div id="carrousel-banner" class="carousel slide  carousel-fade" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carrousel-banner" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="First slide"></li>
+          <li data-bs-target="#carrousel-banner" data-bs-slide-to="1" aria-label="segundo slid"></li>
+          <li data-bs-target="#carrousel-banner" data-bs-slide-to="2" aria-label="terceiro slide"></li>
+          <li data-bs-target="#carrousel-banner" data-bs-slide-to="3" aria-label="quarto slide"></li>
+          <li data-bs-target="#carrousel-banner" data-bs-slide-to="4" aria-label="quinto slide"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+             <div class="card bg-dark text-white rounded-0">
+              <img class="card-img rounded-0" src="https://loremflickr.com/1201/400/brazil" alt="Title">
+              <div class="card-img-overlay">
+                <div class="bg-caroulsel">
+                  <h4 class="card-title">Lorem ipsum dolor sit.</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae autem officia
+                    cupiditate voluptas, dolore fuga?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card bg-dark text-white rounded-0">
+              <img class="card-img rounded-0" src="https://loremflickr.com/1202/400/brazil" alt="Title">
+              <div class="card-img-overlay">
+                <div class="bg-caroulsel">
+                  <h4 class="card-title">Lorem ipsum dolor sit.</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae autem officia
+                    cupiditate voluptas, dolore fuga?  Molestiae autem officia
+                    cupiditate voluptas, dolore fuga</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card bg-dark text-white rounded-0">
+              <img class="card-img rounded-0" src="https://loremflickr.com/1203/400/brazil" alt="Title">
+              <div class="card-img-overlay">
+                <div class="bg-caroulsel">
+                  <h4 class="card-title">Lorem ipsum dolor sit.</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae autem officia
+                    cupiditate voluptas, dolore fuga?  Molestiae autem officia
+                    cupiditate voluptas, dolore fuga</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card bg-dark text-white rounded-0">
+              <img class="card-img rounded-0" src="https://loremflickr.com/1204/400/brazil" alt="Title">
+              <div class="card-img-overlay">
+                <div class="bg-caroulsel">
+                  <h4 class="card-title">Lorem ipsum dolor sit.</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae autem officia
+                    cupiditate voluptas, dolore fuga?  Molestiae autem officia
+                    cupiditate voluptas, dolore fuga</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card bg-dark text-white rounded-0">
+              <img class="card-img rounded-0" src="https://loremflickr.com/1205/400/brazil" alt="Title">
+              <div class="card-img-overlay">
+                <div class="bg-caroulsel">
+                  <h4 class="card-title">Lorem ipsum dolor sit.</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae autem officia
+                    cupiditate voluptas, dolore fuga?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrousel-banner" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrousel-banner" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Proximo</span>
+        </button>
+      </div>
+      <!-- <div class="col-md-8 p-2 d-flex flex-column">
         <div class="mb-auto">
           <a href="#">
             <img class="img-fluid" src="img/ads-1.jpg" alt="">
@@ -114,7 +194,7 @@
       </div>
 
       <div class="col-md-4 d-flex flex-column mb-2">
-        <!-- INICIO das 2 noticias em destaque-->
+        INICIO das 2 noticias em destaqu
 
         <div class="mb-auto">
           <div class="mt-1">
@@ -138,8 +218,8 @@
             </a>
           </div>
         </div>
-        <!-- Fim do Banner das duas noticias em destaque-->
-      </div>
+        Fim do Banner das duas noticias em destaqu
+      </div> -->
 
       <!--INICIO DO MEU DIREITO-->
       <aside class="col-md-2 d-none d-sm d-md-block">
@@ -148,17 +228,17 @@
     </div> <!-- FIM DAS NOTICIAS PRINCIPAIS -->
 
     <section class="container mt-5 pb-5"><!-- rolagem das noticias -->
-      <div class="row ms-2">
+      <div class="row">
 
-        <div class="col-md-8">
-          <div class="row mt-1 mb-1 bg-light shadow">
+        <div class="col-md-8 d-grid gap-4 ">
+          <div class="row bg-light shadow">
             <div class="col-sm-6 pe-0 ps-0">
               <a href="noticia-modelo.html">
                 <img class=" border-5 border-bottom border-danger img-fluid"
                   src="http://source.unsplash.com/random/400x175" alt=""> <!--415*175-->
               </a>
             </div>
-            <div class="col-sm-6 mt-2">
+            <div class="col-sm-6">
               <a class="text-decoration-none" href="noticia-modelo.html">
                 <h4 class="mb-0 noticia notice-title">Titulo da Notícia 1</h4>
               </a>
@@ -170,7 +250,7 @@
             </div>
           </div>
 
-          <div class="row mt-5  bg-light shadow">
+          <div class="row bg-light shadow">
             <div class="col-sm-6 pe-0 ps-0">
               <a href="#">
                 <img class="img-fluid" src="http://source.unsplash.com/random/400x175" alt=""> <!--415*175-->
@@ -187,10 +267,10 @@
             </div>
           </div>
 
-          <div class="row mt-5 mb-1  bg-light shadow">
+          <div class="row bg-light shadow ">
             <div class="col-sm-6 pe-0 ps-0">
               <a href="#">
-                <img class="" src="http://source.unsplash.com/random/400x175" alt=""> <!--415*175-->
+                <img class="img-fluid" src="http://source.unsplash.com/random/400x175" alt=""> <!--415*175-->
               </a>
             </div>
             <div class="col-sm-6 mt-2">
@@ -210,7 +290,7 @@
             </div>
           </div>
 
-          <div class="row mt-5 mb-1  bg-light shadow ">
+          <div class="row bg-light shadow ">
             <div class="col-sm-6 pe-0 ps-0">
               <a href="#">
                 <img class="img-fluid" src="http://source.unsplash.com/random/400x175" alt=""> <!--415*175-->
@@ -227,7 +307,7 @@
             </div>
           </div>
 
-          <div class="row mt-5 mb-1  bg-light shadow">
+          <div class="row bg-light shadow">
             <div class="col-sm-6 pe-0 ps-0">
               <a href="#">
                 <img class="img-fluid" src="http://source.unsplash.com/random/400x175" alt=""> <!--415*175-->
@@ -244,7 +324,7 @@
             </div>
           </div>
 
-          <div class="row mt-5 mb-1  bg-light shadow">
+          <div class="row bg-light shadow">
             <div class="col-sm-6 pe-0 ps-0">
               <img class="img-fluid" src="http://source.unsplash.com/random/400x175 " alt=""> <!--415*175-->
             </div>
@@ -260,7 +340,9 @@
               </p>
             </div>
           </div>
-
+          <div class="d-grid gap-2 mt-3">
+            <button type="button" name="" id="" class="btn btn-bg-1 rounded-0">MAIS NOTÍCIAS</button>
+          </div>
           <div class="container pb-3">
             <div class="d-flex position-relative "><img class="img-fluid pt-5" src="img/ads-1.jpg" alt=""></div>
           </div>
@@ -268,20 +350,22 @@
         </div>
         <div class="col-md-4 ">
 
-            
+
           <div class="mb-3 ">
             <h3 class="notice-title">Titulo</h3>
-            <p class="text-justfy notice-desciption pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum distinctio autem eaque, excepturi totam odio quae ullam aspernatur fugiat.</p>
+            <p class="text-justfy notice-desciption pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dolorum earum distinctio autem eaque, excepturi totam odio quae ullam aspernatur fugiat.</p>
             <iframe class="card-img" width="420" height="315" src="https://www.youtube.com/embed/lELpo5R4lIQ"
               color="white" title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen>
             </iframe>
           </div>
-          
+
           <div class="border-top pt-4 mb-3">
             <h3 class="notice-title">Titulo</h3>
-            <p class="text-justfy notice-desciption pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum distinctio autem eaque, excepturi totam odio quae ullam aspernatur fugiat.</p>
+            <p class="text-justfy notice-desciption pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dolorum earum distinctio autem eaque, excepturi totam odio quae ullam aspernatur fugiat.</p>
             <iframe class="card-img" width="420" height="315" src="https://www.youtube.com/embed/NojsSsypoME"
               color="white" title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -291,7 +375,8 @@
 
           <div class="border-top pt-4 mb-3">
             <h3 class="notice-title">Titulo</h3>
-            <p class="text-justfy notice-desciption pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum distinctio autem eaque, excepturi totam odio quae ullam aspernatur fugiat.</p>
+            <p class="text-justfy notice-desciption pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dolorum earum distinctio autem eaque, excepturi totam odio quae ullam aspernatur fugiat.</p>
             <iframe class="card-img" width="420" height="315" src="https://www.youtube.com/embed/WFdLRLNW3-o"
               color="white" title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -311,14 +396,15 @@
 
   <!-- Inicio do Rodapé -->
   <footer class="container-fluid">
-    <div class="row mt-5">
+    <div class="row mt-2">
       <div class="col-md-2">
         <h5 class="ms-md-5 mt-2 text-white">Ideal News</h5>
         <ul class="ms-md-5 list-unstyled">
           <li class="pbt-2 li-hover"><a class="nav-link text-white" href="quem-somos.html">Quem somos.</a></li>
           <li class="pbt-2 li-hover"><a class="nav-link text-white" href="">Nossa empresa</a></li>
           <li class="pbt-2 li-hover"><a class="nav-link text-white" href="#">Equipe</a></li>
-          <li class="pbt-2 li-hover"><a class="nav-link text-white" href="produtos-servicos.html">Produtos e Serviços</a></li>
+          <li class="pbt-2 li-hover"><a class="nav-link text-white" href="produtos-servicos.html">Produtos e
+              Serviços</a></li>
           <li class="pbt-2 li-hover"><a class="nav-link text-white" href="#">Entre em contato</a></li>
         </ul>
       </div>
@@ -351,7 +437,9 @@
     <div class="row-cols-md-12 container text-center">
 
       <a class="text-decoration-none text-white" href="https://instagram.com/evertonooo" target="_blank">
-        Desenvolvido por Everton Vieira <i class="fa-solid fa-laptop-code"></i>
+        Desenvolvido por Everton Vieira <i class="fa-regular fa-file-code"></i>
+
+
       </a>
     </div>
   </footer>

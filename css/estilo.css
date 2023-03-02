@@ -34,13 +34,7 @@ padding-top: 100px;
 .mt-6{
     margin-top: 130px;
 }
-#triangulo {
-    width: 0;
-    height: 0;
-    border-top: 75px solid transparent;
-    border-right: 80px solid #233158;
-    border-bottom: 75px solid transparent;
-}
+
 .btn-bg-1{
     background-color: #c40f0f;
     border: 1px solid #c40f0f;
@@ -64,9 +58,17 @@ padding-top: 100px;
 .font-montserrant{
     font-family: 'Montserrat', sans-serif
 }
+.text-align-end{
+    text-align: end;
+}
+.bg-caroulsel{
+    background-color: rgba(0, 0, 0, 0.541);
+    
+
+}
 /*//////////Fim das tags//////////*/
 body {
-    background-color: #c40f0f;
+    background: linear-gradient(#093d83,#233158);
 }
 
 /* Formatação Header*/
@@ -128,7 +130,7 @@ body {
 /* ////////// Fim do Main ////////// */
 /* Formatação do Rodapé */
 footer {
-    background: #093d83;
+    background: #c40f0f;
 }
 
 .borda1 {
